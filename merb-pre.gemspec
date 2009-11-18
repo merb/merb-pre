@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
   s.files = [
     ".gitignore",
      "Rakefile",
-     "VERSION"
+     "VERSION",
+     "merb-pre.gemspec"
   ]
   s.homepage = %q{http://merbivore.com/}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -49,7 +50,6 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<dm-sweatshop>, ["~> 0.10"])
       s.add_runtime_dependency(%q<dm-serializer>, ["~> 0.10"])
       s.add_runtime_dependency(%q<dm-constraints>, ["~> 0.10"])
-      s.add_runtime_dependency(%q<merb>, [">= 1.1.0.pre"])
     else
       s.add_dependency(%q<extlib>, [">= 0.9.13"])
       s.add_dependency(%q<erubis>, [">= 2.6.2"])
@@ -71,7 +71,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<dm-sweatshop>, ["~> 0.10"])
       s.add_dependency(%q<dm-serializer>, ["~> 0.10"])
       s.add_dependency(%q<dm-constraints>, ["~> 0.10"])
-      s.add_dependency(%q<merb>, [">= 1.1.0.pre"])
     end
   else
     s.add_dependency(%q<extlib>, [">= 0.9.13"])
@@ -94,7 +93,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<dm-sweatshop>, ["~> 0.10"])
     s.add_dependency(%q<dm-serializer>, ["~> 0.10"])
     s.add_dependency(%q<dm-constraints>, ["~> 0.10"])
-    s.add_dependency(%q<merb>, [">= 1.1.0.pre"])
   end
 end
 

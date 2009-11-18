@@ -36,12 +36,9 @@ begin
     gemspec.add_dependency "dm-sweatshop", "~> 0.10"
     gemspec.add_dependency "dm-serializer", "~> 0.10"
     gemspec.add_dependency "dm-constraints", "~> 0.10"
-
-    gemspec.add_dependency "merb", ">= 1.1.0.pre"
     
     # Requirements
     gemspec.required_ruby_version = ">= 1.8.6"
-
   end
 
   Jeweler::GemcutterTasks.new
